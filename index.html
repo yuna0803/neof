@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neoforet</title>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="//code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+<body> 
+    <div class="wrap">
+        <!-- header -->
+        <!-- 헤더 큰 그룹은  왠만하면 세개의 그룹이되도록 = 로고, nav, 나머지(sns,다국어,모바일버튼 등) = 오른쪽, 중앙, 왼쪽 -->
+        <header class="header">
+            <h1 class="logo">
+                <a href="./index.html"></a>
+            </h1>
+            <nav class="nav">
+                <ul>
+                    <li>
+                        <a href=""><span>네오포레</span></a>
+                        <ul>
+                            <li>
+                                <a href="">ABOUT</a>
+                            </li>
+                            <li>
+                                <a href="">Why 네오포레?</a>
+                            </li>
+                            <li>
+                                <a href="">네오포레 History</a>
+                            </li>
+                            <li>
+                                <a href="">Brand Identity</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href=""><span>제품</span></a>
+                        <ul>
+                            <li>
+                                <a href="">식품용</a>
+                                <ul>
+                                    <li>
+                                        <a href="">네오프레 CUP</a>
+                                    </li>
+                                    <li>
+                                        <a href="">네오프레 STRAW</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="">산업용</a>
+                                <ul>
+                                    <li>
+                                        <a href="">네오프레 완충제</a>
+                                    </li>
+                                    <li>
+                                        <a href="">네오프레 FLEX</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="">펄프 몰드</a>
+                            </li>
+                            <li>
+                                <a href="">바이오플라스틱</a>
+                            </li>
+                            <li>
+                                <a href="">신제품 개발 현황</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href=""><span>환경 인증</span></a>
+                    </li>
+                    <li>
+                        <a href=""><span>환경 경영</span></a>
+                        <ul>
+                            <li>
+                                <a href="">저탄소 공정</a>
+                            </li>
+                            <li>
+                                <a href="">지속가능 순환 시스템</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href=""><span>제조 공정</span></a>
+                    </li>
+                    <li>
+                        <a href=""><span>PR</span></a>
+                        <ul>
+                            <li>
+                                <a href="">무림뉴스</a>
+                            </li>
+                            <li>
+                                <a href="">영상</a>
+                            </li>
+                            <li>
+                                <a href="">종이와 환경에 대한 진실</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href=""><span>고객 지원</span></a>
+                        <ul>
+                            <li>
+                                <a href="">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="">온라인 문의</a>
+                            </li>
+                            <li>
+                                <a href="">담당자 연락처</a>
+                            </li>
+                            <li>
+                                <a href="">제품 카탈로그</a>
+                            </li>
+                            <li>
+                                <a href="">샘플 신청</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header_ui">
+                <ul class="sns">
+                    <li>
+                        <span>SNS<i class="xi-caret-down-min"></i></span>
+                        <ul>
+                            <li>
+                                <a href=""><i class="icon1"></i>카카오톡</a>
+                            </li>
+                            <li>
+                                <a href=""><i class="icon2"></i>네이버 블로그</a>
+                            </li>
+                            <li>
+                                <a href=""><i class="icon3"></i>인스타그램</a>
+                            </li>
+                            <li>
+                                <a href=""><i class="icon4"></i>페이스북</a>
+                            </li>
+                            <li>
+                                <a href=""><i class="icon5"></i>유튜브</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="lag">
+                    <li>
+                        <span>KR<i class="xi-caret-down-min"></i></span>
+                        <ul>
+                            <li>
+                                <a href="">KR</a>
+                            </li>
+                            <li>
+                                <a href="">EN</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="m_btn">
+                    <span></span>
+                </div>
+                <div class="m_gnb">
+                    <nav class="m_nav">
+                        <ul>
+                            <li>
+                                <a href="">네오포레</a>
+                                <ul>
+                                    <li>
+                                        <a href="">ABOUT</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Why 네오포레?</a>
+                                    </li>
+                                    <li>
+                                        <a href="">네오포레 History</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Brand Identity</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="">제품</a>
+                                <ul>
+                                    <li>
+                                        <a href="">식품용</a>
+                                        <ul>
+                                            <li>
+                                                <a href="">네오프레 CUP</a>
+                                            </li>
+                                            <li>
+                                                <a href="">네오프레 STRAW</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="">산업용</a>
+                                        <ul>
+                                            <li>
+                                                <a href="">네오프레 완충제</a>
+                                            </li>
+                                            <li>
+                                                <a href="">네오프레 FLEX</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="">펄프 몰드</a>
+                                    </li>
+                                    <li>
+                                        <a href="">바이오플라스틱</a>
+                                    </li>
+                                    <li>
+                                        <a href="">신제품 개발 현황</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="">환경 인증</a>
+                            </li>
+                            <li>
+                                <a href="">환경 경영</a>
+                                <ul>
+                                    <li>
+                                        <a href="">저탄소 공정</a>
+                                    </li>
+                                    <li>
+                                        <a href="">지속가능 순환 시스템</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="">제조 공정</a>
+                            </li>
+                            <li>
+                                <a href="">PR</a>
+                                <ul>
+                                    <li>
+                                        <a href="">무림뉴스</a>
+                                    </li>
+                                    <li>
+                                        <a href="">영상</a>
+                                    </li>
+                                    <li>
+                                        <a href="">종이와 환경에 대한 진실</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="">고객 지원</a>
+                                <ul>
+                                    <li>
+                                        <a href="">FAQ</a>
+                                    </li>
+                                    <li>
+                                        <a href="">온라인 문의</a>
+                                    </li>
+                                    <li>
+                                        <a href="">담당자 연락처</a>
+                                    </li>
+                                    <li>
+                                        <a href="">제품 카탈로그</a>
+                                    </li>
+                                    <li>
+                                        <a href="">샘플 신청</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                    <ul class="m_sns">
+                        <li>
+                            <a href="">
+                                <img src="./imgs/main/icon_k_H.png" alt="카카오톡">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./imgs/main/icon_n_H.png" alt="네이버 블로그">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./imgs/main/icon_i_H.png" alt="인스타그램">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./imgs/main/icon_f_H.png" alt="페이스북">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./imgs/main/icon_y_H.png" alt="유튜브">
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="lag_btn">
+                        <a href=""><i class="xi-globus"></i>KR/EN</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- section_01 -->
+        <!-- 첫 메인은 나중에 슬라이더가 될것이기 때문에 미리 생각하여 마크업구성 -->
+        <div class="sc_01">
+            <div class="slide_img">
+                <div class="item">
+                    <div class="bg bg01"></div>
+                </div>
+                <div class="item">
+                    <div class="bg bg02"></div>
+                </div>
+                <div class="item">
+                    <div class="bg bg03"></div>
+                </div>
+            </div>
+            <div class="slide_ctn">
+                <div class="item">
+                    <h2>Return to forest</h2>
+                    <p>숲으로 돌아가는 종이, 네오포레</p>
+                    <div class="btn">
+                        <a href="">브랜드 스토리 자세히 보기 <i class="xi-arrow-right"></i></a>
+                    </div>
+                    <div class="slide_icon"></div>
+                </div>
+            </div>
+        </div>
+        <!-- section_02 -->
+        <div class="sc_02">
+            <div class="slide_ctn">
+                <div class="item">
+                    <div class="bg bg01"></div>
+                    <div class="btn">
+                        <a href="">네오프레 CUP<i class="xi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="bg bg02"></div>
+                    <div class="btn">
+                        <a href="">네오프레 STRAW <i class="xi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="bg bg03"></div>
+                    <div class="btn">
+                        <a href="">네오프레 완충제 <i class="xi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="bg bg01"></div>
+                    <div class="btn">
+                        <a href="">네오프레 CUP<i class="xi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="bg bg02"></div>
+                    <div class="btn">
+                        <a href="">네오프레 STRAW <i class="xi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="bg bg03"></div>
+                    <div class="btn">
+                        <a href="">네오프레 완충제 <i class="xi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="txt txt_ani">
+                <h3 class="ani">
+                    네오포레의<br> 다양한 제품을 만나보세요.
+                </h3>
+                <p class="split ani">
+                    무림은 최고의 기술로 생활의 가치를 더하고 있습니다.
+                </p>
+            </div>
+            <!-- slide_btn -->
+            <div class="slide_btn">
+                <div class="icon">
+                    <i class="xi-angle-left prev"></i>
+                    <div class="circle on"></div>
+                    <div class="circle two"></div>
+                    <i class="xi-angle-right next"></i>
+                </div>
+            </div>
+        </div>
+        <!-- section_03 -->
+        <!-- 각각 박스들은 게시판으로 가는 링크겠지? 박스 전체가 클릭되게 하고싶으면 a를 어떤식으로 사용한다고했지? -->
+        <div class="sc_03">
+            <div class="w1600">
+                <div class="title">
+                    <h3 class="ani">네오포레의<br> 다양한 소식을 만나보세요.</h3>
+                    <p class="split ani">무림은 최고의 기술로 생활에 가치를 더하고 있습니다.</p>
+                </div>
+                <div class="ctn">
+                    <div class="box ani">
+                        <!-- 패딩박스 태그 만들기 -->
+                        <figure>
+                            <img src="./imgs/sub/news_img_01.jpg" alt="뉴스이미지 1">
+                        </figure>
+                        <div class="txt">
+                            <p class="tit">'종이의 날' 앞둔 제지업계…종이에 대한 오해 풀기  나선다</p>
+                            <p class="date">2022.06.07</p>
+                            <p class="article">제지연합회, '오해를 푸는 6가지 진실' 공개)</p>
+                        </div>
+                        <a class="full" href=""></a>
+                    </div>
+                    <div class="box ani">
+                        <figure>
+                            <img src="./imgs/sub/news_img_02.jpg" alt="뉴스이미지 2">
+                        </figure>
+                        <div class="txt">
+                            <p class="tit">무림페이퍼, 에코라이프 기업으로 도약</p>
+                            <p class="date">2022.05.25</p>
+                            <p class="article">팝업 체험존 '페이퍼 어드벤처' 오픈(출처: 파이낸셜뉴스)</p>
+                        </div>
+                        <a class="full" href=""></a>
+                    </div>
+                    <div class="box ani">
+                        <figure>
+                            <img src="./imgs/sub/news_img_03.jpg" alt="뉴스이미지 3">
+                        </figure>
+                        <div class="txt">
+                            <p class="tit">제지기술 집약체 '투표용지'… 무림, 한솔 자존심 대결</p>
+                            <p class="date">2022.05.23</p>
+                            <p class="article">"아직도 플라스틱? 이제는 천연 펄프몰드!" (출처: 에이빙뉴스)</p>
+                        </div>
+                        <a class="full" href=""></a>
+                    </div>
+                </div>
+                <!-- btn -->
+                <div class="btn ani">
+                    <a href="">네오포레 소식 더보기</a>
+                </div>
+            </div>
+        </div>
+        <!-- section_04 -->
+        <div class="sc_04">
+            <div class="w1600">
+                <div class="ctn">
+                    <div class="box ani">
+                        <div class="txt">
+                            <h4>온라인 문의</h4>
+                            <p>궁금하신 사항을 문의 하실 수 있습니다.</p>
+                        </div>
+                        <div class="btn">
+                            <a href="">문의하기 <i class="xi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="box ani">
+                        <div class="txt">
+                            <h4>온라인 문의</h4>
+                            <p>궁금하신 사항을 문의 하실 수 있습니다.</p>
+                        </div>
+                        <div class="btn">
+                            <a href="">정보확인 <i class="xi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <footer class="footer">
+            <div class="w1600">
+                <h2 class="f_logo"></h2>
+                <ul class="info">
+                    <li>
+                        <address>
+                            서울특별시 강남구 강남대로 656(신사동)
+                        </address>
+                    </li>
+                    <li>TEL : 02. 3485. 1500</li>
+                    <li>FAX : 02. 3443. 2997</li>
+                    <li><a href="">개인정보 처리방침</a></li>
+                    <li class="f_btn">
+                        <a href="">무림페이지로 이동<i class="xi-long-arrow-right"></i></a>
+                    </li>
+                </ul>
+                <p class="copy">
+                    OPYRIGHT© 2021 MOORIM PAPER. ALL RIGHT RESERVED
+                </p>
+            </div>
+        </footer>
+    </div>
+    <script src="/js/main.js"></script>
+    <script>
+        AOS.init({
+            once: true
+        });
+      </script>
+</body>
+</html>
